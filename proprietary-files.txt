@@ -1655,6 +1655,15 @@ vendor/lib64/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.voice-V1-ndk.so
 
+# Radio (Engineer Mode)
+system_ext/app/EngineerMode/EngineerMode.apk
+vendor/bin/em_hidl
+vendor/etc/init/em_hal_user.rc
+vendor/etc/vintf/manifest/em_hal_service.xml
+vendor/lib64/libbluetooth_relayer.so
+vendor/lib64/libbluetoothem_mtk.so
+vendor/lib64/vendor.mediatek.hardware.engineermode-V1-ndk.so
+
 # Radio (IMS)
 system_ext/bin/vtservice
 system_ext/etc/init/init.vtservice.rc

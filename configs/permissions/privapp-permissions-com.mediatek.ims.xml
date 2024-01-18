@@ -10,4 +10,16 @@
         <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
         <permission name="android.permission.LOCATION_BYPASS"/>
     </privapp-permissions>
+    <privapp-permissions package="com.mediatek.engineermode">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.LOCATION_HARDWARE"/>
+    </privapp-permissions>
 </permissions>
